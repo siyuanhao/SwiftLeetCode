@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8E7B5190245859F800A970A1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7B518F245859F800A970A1 /* main.swift */; };
 		8E7B519724585A3900A970A1 /* singleNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7B519624585A3900A970A1 /* singleNumbers.swift */; };
+		8E8742382458917700FBC281 /* maxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8742372458917700FBC281 /* maxSubArray.swift */; };
+		8E87423A2458A92C00FBC281 /* maxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8742392458A92C00FBC281 /* maxProfit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		8E7B518C245859F800A970A1 /* SwiftEX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftEX; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7B518F245859F800A970A1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8E7B519624585A3900A970A1 /* singleNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleNumbers.swift; sourceTree = "<group>"; };
+		8E8742372458917700FBC281 /* maxSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxSubArray.swift; sourceTree = "<group>"; };
+		8E8742392458A92C00FBC281 /* maxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxProfit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				8E7B518F245859F800A970A1 /* main.swift */,
 				8E7B519624585A3900A970A1 /* singleNumbers.swift */,
+				8E8742372458917700FBC281 /* maxSubArray.swift */,
+				8E8742392458A92C00FBC281 /* maxProfit.swift */,
 			);
 			path = SwiftEX;
 			sourceTree = "<group>";
@@ -123,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E87423A2458A92C00FBC281 /* maxProfit.swift in Sources */,
 				8E7B519724585A3900A970A1 /* singleNumbers.swift in Sources */,
+				8E8742382458917700FBC281 /* maxSubArray.swift in Sources */,
 				8E7B5190245859F800A970A1 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +258,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5CV6RD2FUS;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -261,6 +270,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5CV6RD2FUS;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

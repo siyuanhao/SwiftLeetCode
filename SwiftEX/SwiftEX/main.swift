@@ -8,10 +8,11 @@
 
 import Foundation
 
-var solute = Solution();
-let nums = [1,2,3,4,5,3,4,5];
+var solute = Solution3();
+let nums = [7,1,5,3,6,4];
 
-solute.singleNumbers(nums);
+//solute.singleNumbers(nums);
+var y = solute.maxProfit(nums);
 
-print("Hello, World!")
+print(y)
 
