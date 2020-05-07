@@ -11,6 +11,8 @@
 		8E7B519724585A3900A970A1 /* singleNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7B519624585A3900A970A1 /* singleNumbers.swift */; };
 		8E8742382458917700FBC281 /* maxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8742372458917700FBC281 /* maxSubArray.swift */; };
 		8E87423A2458A92C00FBC281 /* maxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8742392458A92C00FBC281 /* maxProfit.swift */; };
+		8EC466AC2462B49500BD5B9E /* LIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC466AB2462B49500BD5B9E /* LIS.swift */; };
+		8EC466AE2462BDF100BD5B9E /* numofLIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC466AD2462BDF100BD5B9E /* numofLIS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		8E7B519624585A3900A970A1 /* singleNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleNumbers.swift; sourceTree = "<group>"; };
 		8E8742372458917700FBC281 /* maxSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxSubArray.swift; sourceTree = "<group>"; };
 		8E8742392458A92C00FBC281 /* maxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxProfit.swift; sourceTree = "<group>"; };
+		8EC466AB2462B49500BD5B9E /* LIS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIS.swift; sourceTree = "<group>"; };
+		8EC466AD2462BDF100BD5B9E /* numofLIS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numofLIS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				8E7B519624585A3900A970A1 /* singleNumbers.swift */,
 				8E8742372458917700FBC281 /* maxSubArray.swift */,
 				8E8742392458A92C00FBC281 /* maxProfit.swift */,
+				8EC466AB2462B49500BD5B9E /* LIS.swift */,
+				8EC466AD2462BDF100BD5B9E /* numofLIS.swift */,
 			);
 			path = SwiftEX;
 			sourceTree = "<group>";
@@ -131,8 +137,10 @@
 			files = (
 				8E87423A2458A92C00FBC281 /* maxProfit.swift in Sources */,
 				8E7B519724585A3900A970A1 /* singleNumbers.swift in Sources */,
+				8EC466AE2462BDF100BD5B9E /* numofLIS.swift in Sources */,
 				8E8742382458917700FBC281 /* maxSubArray.swift in Sources */,
 				8E7B5190245859F800A970A1 /* main.swift in Sources */,
+				8EC466AC2462B49500BD5B9E /* LIS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

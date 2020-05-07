@@ -8,11 +8,11 @@
 
 import Foundation
 
-var solute = Solution3();
-let nums = [7,1,5,3,6,4];
+var solute = numOfLIS();
+let nums = [1,2,3,1,2,3,1,2,3];
 
 //solute.singleNumbers(nums);
-var y = solute.maxProfit(nums);
+var y = solute.findNumberOfLIS(nums);
 
 print(y)
 
