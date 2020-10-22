@@ -9,7 +9,7 @@
 import Foundation
 
 var solute = numOfLIS();
-let nums = [1,2,3,1,2,3,1,2,3];
+let nums = [1,2,4,3,5,4,7,2];
 
 //solute.singleNumbers(nums);
 var y = solute.findNumberOfLIS(nums);

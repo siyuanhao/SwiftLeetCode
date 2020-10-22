@@ -21,9 +21,9 @@ class numOfLIS {
                 if nums[j] < nums[i] {
                     if dp[i] < dp[j]+1 {
                         dp[i] = dp[j]+1
-                        arrayA[i] = arrayA[j]
+                        arrayA[i] = arrayA[j] //如果+1长于当前LIS 则组合数不变
                     } else if(dp[i] == dp[j]+1){
-                        arrayA[i] += arrayA[j]
+                        arrayA[i] += arrayA[j] //如果+1等于当前LIS 则说明找到了新组合，
                     }
                 }
             }
