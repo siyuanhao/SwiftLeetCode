@@ -8,11 +8,11 @@
 
 import Foundation
 
-var solute = numOfLIS();
-let nums = [1,2,4,3,5,4,7,2];
+var solute = SolutionRobber();
+let nums = [1,2,3,1];
 
 //solute.singleNumbers(nums);
-var y = solute.findNumberOfLIS(nums);
+var y = solute.rob(nums);
 
 print(y)
 
