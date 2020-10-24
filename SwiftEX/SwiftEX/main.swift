@@ -8,11 +8,11 @@
 
 import Foundation
 
-var solute = SolutionRobber();
-let nums = [1,2,3,1];
+var solute = HouseRobber();
+let nums = [2,3,2];
 
 //solute.singleNumbers(nums);
-var y = solute.rob(nums);
+var y = solute.rob3(nums);
 
 print(y)
 
