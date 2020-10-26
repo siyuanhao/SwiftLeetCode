@@ -8,11 +8,11 @@
 
 import Foundation
 
-var solute = HouseRobber();
-let nums = [2,3,2];
+var solute = TreeSolution();
+let nums = [3,2,1,6,0,5];
 
 //solute.singleNumbers(nums);
-var y = solute.rob3(nums);
+//var y = solute.kthLargest();
 
-print(y)
+//print(y)
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E662BFB254520B800AF6BB7 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E662BFA254520B800AF6BB7 /* BinaryTree.swift */; };
+		8E662BFE2546D0BE00AF6BB7 /* 1365.How Many Numbers Are Smaller Than the Current Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E662BFD2546D0BE00AF6BB7 /* 1365.How Many Numbers Are Smaller Than the Current Number.swift */; };
 		8E7B5190245859F800A970A1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7B518F245859F800A970A1 /* main.swift */; };
 		8E7B519724585A3900A970A1 /* singleNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7B519624585A3900A970A1 /* singleNumbers.swift */; };
 		8E8742382458917700FBC281 /* maxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8742372458917700FBC281 /* maxSubArray.swift */; };
@@ -29,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8E662BFA254520B800AF6BB7 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		8E662BFD2546D0BE00AF6BB7 /* 1365.How Many Numbers Are Smaller Than the Current Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1365.How Many Numbers Are Smaller Than the Current Number.swift"; sourceTree = "<group>"; };
 		8E7B518C245859F800A970A1 /* SwiftEX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftEX; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7B518F245859F800A970A1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8E7B519624585A3900A970A1 /* singleNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleNumbers.swift; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 				8EC466AB2462B49500BD5B9E /* LIS.swift */,
 				8EC466AD2462BDF100BD5B9E /* numofLIS.swift */,
 				8E97F1402542CDC6006AB698 /* HouseRobber.swift */,
+				8E662BFA254520B800AF6BB7 /* BinaryTree.swift */,
+				8E662BFD2546D0BE00AF6BB7 /* 1365.How Many Numbers Are Smaller Than the Current Number.swift */,
 			);
 			path = SwiftEX;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E662BFB254520B800AF6BB7 /* BinaryTree.swift in Sources */,
 				8E87423A2458A92C00FBC281 /* maxProfit.swift in Sources */,
+				8E662BFE2546D0BE00AF6BB7 /* 1365.How Many Numbers Are Smaller Than the Current Number.swift in Sources */,
 				8E7B519724585A3900A970A1 /* singleNumbers.swift in Sources */,
 				8EC466AE2462BDF100BD5B9E /* numofLIS.swift in Sources */,
 				8E97F1412542CDC6006AB698 /* HouseRobber.swift in Sources */,

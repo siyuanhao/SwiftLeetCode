@@ -32,7 +32,7 @@ class Solution3 {
         let times = [[Int]](repeating: buyState, count: k+1)
         var dp = [[[Int]]](repeating: times, count: prices.count)
         
-        var value = prices.count / 2
+        let value = prices.count / 2
         if k == 0 {
             return 0
         } else if value < k {
