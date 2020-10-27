@@ -146,4 +146,30 @@ class TreeSolution {
         return left == nil ? right : left
     }
     
+    func preorderTraversal2(_ root: TreeNode?) -> [Int] { //递归算法
+        if root == nil {
+            return []
+        }
+        var trees = [Int]()
+        trees.append(root!.val)
+        trees += preorderTraversal(root?.left)
+        trees += preorderTraversal(root?.right)
+        return trees
+    }
+    
+    func preorderTraversal(_ root: TreeNode?) -> [Int] { //非递归算法
+        var stack = [TreeNode]()
+        var curr : TreeNode? = root
+        var trees = [Int]()
+        while !stack.isEmpty || curr != nil {
+            while curr != nil {
+                stack.append(curr!)
+                trees.append(curr!.val)
+                curr = curr?.left
+            }
+            curr = stack.removeLast()
+            curr = curr?.right
+        }
+        return trees
+    }
 }
