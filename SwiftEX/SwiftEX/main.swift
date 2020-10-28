@@ -8,11 +8,11 @@
 
 import Foundation
 
-var solute = TreeSolution();
-let nums = [3,2,1,6,0,5];
+var solute = Solution1207();
+let nums = [1,2,2,1,1,3];
 
-//solute.singleNumbers(nums);
-//var y = solute.kthLargest();
+//solute.uniqueOccurrences(nums);
+var y = solute.uniqueOccurrences(nums);
 
-//print(y)
+print(y)
 
