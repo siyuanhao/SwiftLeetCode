@@ -67,4 +67,17 @@ class SolutionLinkedList {
         }
         return head.next
     }
+    
+    func reverseList(_ head: ListNode?) -> ListNode? {
+        var pre:ListNode? = nil
+        var p:ListNode? = head
+
+        while p != nil {
+            let temp = p?.next
+            p?.next = pre
+            pre = p
+            p = temp
+        }
+        return p
+    }
 }
